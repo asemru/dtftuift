@@ -7,6 +7,11 @@ header a{
   color:black;
 }
 header{
+  text-decoration:none;
+  border: 1px solid black;
+  border-radius:15px;
+  padding:5px;
+  text align: centre;
   marding: 5px;
 }
 
