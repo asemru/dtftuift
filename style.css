@@ -1,23 +1,26 @@
 header a{
   text-decoration:none;
-  border: 1px solid black;
+  border: 1px solid red;
   border-radius:15px;
-  padding:5px;
-  marding:5px;
-  color:black;
+  padding:10px;
+  margin:5px;
+  color:white;
 }
 header{
   text-decoration:none;
   border: 1px solid black;
-  border-radius:15px;
-  padding:5px;
-  text align: centre;
-  margin: 5px;
+  border-radius:5px;
+  padding:20px;
+  text-align: centre;
+  margin: 10px;
   background-color: black;
   color: white;
 }
 
-
+main {
+  border: 5px solid black;
+  border-radius: 15px;
+}
 
 
 
