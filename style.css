@@ -1,26 +1,66 @@
-header a{
-  text-decoration:none;
-  border: 1px solid red;
-  border-radius:15px;
-  padding:10px;
-  margin:5px;
-  color:white;
-}
-header{
-  text-decoration:none;
-  border: 1px solid black;
-  border-radius:5px;
-  padding:20px;
-  text-align: centre;
-  margin: 10px;
-  background-color: black;
-  color: white;
+body {
+    font-family: sans-serif;
 }
 
-main {
-  border: 5px solid black;
-  border-radius: 15px;
+.gallery{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
 }
+.big{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.divry1{
+    width: 400px;
+}
+.divry2{
+    width: 400px;
+}
+
+.catalog{
+    width: 870px;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.product{
+    float: left;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin: 40px 0px 40px 80px;
+    background-color: bisque;
+}
+
+
+.cuty{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed navy;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+}
+
 
 
 
